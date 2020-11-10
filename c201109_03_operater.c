@@ -78,11 +78,30 @@ int main(){
     // printf("%d\n",max);
 
     //20, 10, 30 3개의 정수가 주어졌을 때 가장 큰 값을 구하는 프로그램을 삼항 연산자를 이용하여 만들어 보시오.
-    int a = 20;
-    int b = 10;
-    int c = 30;
-    int max;
-    max = a>b ? a : b;
-    max = max > c? max : c;
-    printf("가장 큰 값은 %d입니다\n",max);
+    // int a = 20;
+    // int b = 10;
+    // int c = 30;
+    // int max;
+    // max = a>b ? a : b;
+    // max = max > c? max : c;
+    // printf("가장 큰 값은 %d입니다\n",max);
+
+    //ㅇㅏ이피를 16진수로 변환. ip: 192.168.0.92 subnet mask: 255.255.255.0
+    // 이진수로 바꾸기 : ip: 11000000.10101000.0.1011100 subnet mask: 11111111.11111111.11111111.0
+    // 16진수: c0a85c                              ffffff0
+    // unsigned int ip = 192 << 24 | 168 << 16 | 0 << 8 | 92;
+    // printf("%x\n",ip);
+    // printf("%x\n",ip & 0xffffff00); //네트워크 주소.
+    
+    // int a = 20;
+    // int b = 10;
+    // int c = 30;
+    // int min;
+    // min = a<b ? a : b;
+    // min = min < c? min : c;
+    // printf("가장 작은 값은 %d입니다\n",min);
+
+    //어떤 정수가 주어 졌을 때 짝/홀수를 판별하여 출력하시오.
+    int a = 9;
+    a%2 == 0 ? printf("%d는 짝수입니다.\n",a) : printf("%d는 홀수입니다.\n",a);
 }
