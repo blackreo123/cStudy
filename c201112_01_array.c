@@ -168,19 +168,19 @@ int main()
 	//영업사원의 실적을 입력받아 그래프(*)로 나타내기
 	//1:**********
 	//2:*******
-    int scoreList[3];
-    int size = sizeof(scoreList)/sizeof(int);    
-    int score;
-    for(int i = 0; i < size; i++){
-        printf("실적을 입력하세요 %d번 : ",i+1);
-        scanf("%d",&score);
-        scoreList[i] = score; 
-    }
-    for(int i = 0; i<size; i++){
-        printf("%d : ",i+1);
-        for(int j = 0; j < scoreList[i]; j++){
-            printf("*");
-        }
-        printf("\n");
-    }
+    // int scoreList[3];
+    // int size = sizeof(scoreList)/sizeof(int);    
+    // int score;
+    // for(int i = 0; i < size; i++){
+    //     printf("실적을 입력하세요 %d번 : ",i+1);
+    //     scanf("%d",&score);
+    //     scoreList[i] = score; 
+    // }
+    // for(int i = 0; i<size; i++){
+    //     printf("%d : ",i+1);
+    //     for(int j = 0; j < scoreList[i]; j++){
+    //         printf("*");
+    //     }
+    //     printf("\n");
+    // }
 }
