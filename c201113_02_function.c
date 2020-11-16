@@ -2,6 +2,7 @@
 #include <math.h>
 #include <time.h>
 #include <unistd.h>
+
 //hello를 출력하는 함수
 void helloPrint(){
     printf("hello\n");
@@ -93,5 +94,5 @@ int main(){
     // gugudan(2);
     // printf("%d\n",daduhae(10));
     // sosu(127);
-    countDown(10);
+    countDown(3);
 }
